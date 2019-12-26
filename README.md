@@ -333,8 +333,8 @@ Now you can access OpenShift Cluster using Web Browser as following:
 
 https://master.openshift.example.com:8443 
 
-Username: admin
-Password: Redhat
+		Username: admin
+		Password: Redhat
 
 
-########################################################################################################################
+#################################################################################
