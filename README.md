@@ -2,26 +2,22 @@
 Deploy MultiNode OpenShift-Origin 3.9 Cluster On CentOs-7
 
 
-						Deploying OpenShift Origin 3.9  Cluster On CentOs-7 Step-by-Step : 
-						#####################################################################
+	Deploying OpenShift Origin 3.9  Cluster On CentOs-7 Step-by-Step : 
+	
 
 
-Lab Setup: 
-*********************
+# Lab Setup: 
 
-Hostname			                  IP Address	  CPUs	RAM	          HDD			        OS		    Role
-master.openshift.example.com  	192.168.43.20	 2	  2 GB	  /dev/sda (100 GB) 	CentOS-7	Master-Node
-node1.openshift.example.com	    192.168.43.21	 1	  1 GB	  /dev/sda (100 GB) 	CentOS-7	Worker-Node 
-node2.openshift.example.com	    192.168.43.22	 1	  1 GB	  /dev/sda (100 GB) 	CentOS-7	Worker-Node
-infra.openshift.example.com	    192.168.43.23	 1	  1 GB	  /dev/sda (100 GB) 	CentOS-7	infra-Node
+	Hostname                             IP	       CPUs     RAM	     	HDD		        OS	  Role
+	master.openshift.example.com  	192.168.43.20	 2	  2 GB	  /dev/sda (75 GB) 	CentOS-7	Master-Node
+	node1.openshift.example.com	192.168.43.21	 1	  1 GB	  /dev/sda (50 GB) 	CentOS-7	Worker-Node 
+	node2.openshift.example.com	192.168.43.22	 1	  1 GB	  /dev/sda (50 GB) 	CentOS-7	Worker-Node
+	infra.openshift.example.com	192.168.43.23	 1	  1 GB	  /dev/sda (50 GB) 	CentOS-7	infra-Node
 
-Note : Above Lab Setup is According to my Laptop Configuration. You can Change as per Your requirements.
-********************************************************************************************************
+	Note : Above Lab Setup is According to my Laptop Configuration. You can Change as per Your requirements.
+
 			
-			
-      #################################
-						# 	Preparing Nodes: 	#
-			#################################
+				# 	Preparing Nodes: 	#
 
 Step 1: Set the hostname:
 *************************
